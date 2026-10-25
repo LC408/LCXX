@@ -1,0 +1,23 @@
+姓名其他步骤
+
+步骤:
+推：:
+分支机构：["main"]: [ "主要" ]
+pull_request：:
+分支机构：["main"]: [ "主要" ]
+
+作业：:
+建立：:
+
+run-on:ubuntu-latest: ubuntu-最新
+
+步骤：:
+-使用：操作/结帐@v4uses: 操作/结帐@v4
+    - 姓名: configure
+      run: ./configure
+    - 姓名: make
+      run: make
+    - 姓名: make check
+      run: make check
+    - 姓名: make distcheck
+      run: make distcheck
